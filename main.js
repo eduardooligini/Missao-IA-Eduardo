@@ -120,4 +120,10 @@ function respostaSelecionada(opcaoSelecionada){
     mostraPergunta();
 }
 
+function mostraResultado(){
+    caixaPerguntas.textContent = "Se fosse possível ...";
+    textoResultado.textContent = historiaFinal;
+    caixaAlternativas.textContent = " ";
+}
+
 mostraPergunta();
