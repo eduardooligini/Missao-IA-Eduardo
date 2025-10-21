@@ -126,4 +126,4 @@ function mostraResultado(){
     caixaAlternativas.textContent = " ";
 }
 
-mostraPergunta();re
+mostraPergunta();
